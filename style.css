@@ -1,0 +1,97 @@
+/*CSS file for the profile page*/
+body {
+    background-color: #F9F7F7;
+    font-family: "Roboto", sans-serif;
+    color: #112D4E;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: #3F72Af;
+  font-size: 40px;
+  line-height: 1.2;
+}
+h2 {color: #22A39F;
+  font-size: 32px;
+  line-height: 1.2;}
+a {
+  text-decoration: none;
+  color: #493D9E;
+  font-size: 19px;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+.btn-stars {
+  display: inline-block;
+  background: linear-gradient(135deg, #5E35B1, #00BFA5);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 15px rgba(63, 81, 181, 0.5);
+}
+a:hover {
+  color: #9C27B0;
+}
+a.btn-stars:hover {
+  color: white;
+}
+.btn-stars:hover {
+  background: linear-gradient(135deg, #3F51B5, #9C27B0);
+  transform: translateY(-2px);
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #F9F7F7;
+  border-radius: 8px;
+}
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  border: 1px solid rgb(228, 228, 228);
+}
+#profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
